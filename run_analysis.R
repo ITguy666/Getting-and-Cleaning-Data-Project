@@ -36,9 +36,9 @@ Tidydata <- Merged %>%
 
 ## Step 3: Descriptive Activity Names
 Tidydata$code <- activities[Tidydata$code,2]
+names(Tidydata)[2]="activity"
 
 ## Step 4: Label with Descriptive Names
-names(Tidydata)[2]="activity"
 names(Tidydata) <- gsub("^t","Time",names(Tidydata))
 names(Tidydata) <- gsub("^f","Frequency",names(Tidydata))
 names(Tidydata) <- gsub("Acc","Acccelerometer",names(Tidydata))
