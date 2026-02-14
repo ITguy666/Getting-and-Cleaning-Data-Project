@@ -1,0 +1,20 @@
+---
+title: "README"
+author: "ITguy666"
+date: "2026-02-14"
+output: html_document
+---
+#Getting and Cleaning Data - Coursera Project
+This repository contains the R code and documentation for the "Human Activity Recongition using Smartphones" tidy data project. 
+
+##Files
+1) run_analysis.R: R script contains the 5 steps in the data cleaning. 
+2) Tidydata_final.txt: This contains the exported tidy dataset which averages for each activity and subject.
+3) CodeBook.md: Describes the variables, data and transformations performed.
+README.md: This explains how the script works. 
+
+##Instructions
+1) Download data from the link "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+2) Unzip the folder into your working directory
+3) Run source("run_analysis.R") in RStudip
+4) The script will generate a file called "Tidydata_final.txt" in your directory.
